@@ -1,0 +1,21 @@
+
+
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "ES2020",
+    "declaration": true,
+    "baseUrl": "src",
+    "allowJs": true,
+    "lib": ["es2017", "DOM"],
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "paths": {
+      "@helpers": ["helpers"],
+      "@types": ["types"]
+    }
+  },
+  "include": ["src/**/*", "./test"],
+  "exclude": ["node_modules", "dist/**/*"]
+}
